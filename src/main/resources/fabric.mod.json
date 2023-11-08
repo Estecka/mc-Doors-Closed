@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "doors-closed",
+	"version": "${version}",
+	"name": "Doors Closed",
+	"description": "Forces villagers to close doors they pass through.",
+	"authors": [
+		"Estecka"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/doors-closed",
+		"sources": "https://github.com/Estecka/mc-Doors-Closed"
+	},
+	"license": "MIT",
+	"icon": "assets/doors-closed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+		]
+	},
+	"mixins": [
+		"doors-closed.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": ">=1.19.4",
+		"java": ">=17"
+	},
+	"suggests": {
+	}
+}
